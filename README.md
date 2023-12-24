@@ -5,6 +5,12 @@ Atividade desenvolvida na disciplina de Sistemas Distribuídos. O objetivo foi c
 
 Do ponto de vista técnico o objetivo foi o de desenvonver a comunicação entre os as instâncias da aplicação através de Sockets.
 
+## Implementação
+- Desenvolvido na versão 11 do Java
+- Validado no Ubuntu 22.04 e no Windows 10 e 11
+- As telas foram criadas a partir da bilbioteca [Swing](https://docs.oracle.com/javase/8/docs/api/index.html?javax/swing/package-summary.html), do Java
+- Para a transmissão de dados a partir do formato JSON foi utilizada a biblioteca [Gson](https://github.com/google/gson), da Google
+
 ## Server
 ![Control Panel](https://github.com/JoaoVictorFdeBarros/TicTacToe/blob/master/images/ControlPanel.png)
 *Server/src/main/java/com/cefetmg/tictactoeserver/ControlPanel.java*
